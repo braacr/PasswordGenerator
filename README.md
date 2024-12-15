@@ -13,3 +13,5 @@ A simple, stylish, and secure password generator for creating strong passwords w
 2. Set the desired password length using the input field.
 3. Click **"Generate Password"** to create a new password.
 4. Use the **"Copy to Clipboard"** button to copy the password.
+
+![{0F6A12BC-4C63-4983-ACF0-BD61E998F85C}](https://github.com/user-attachments/assets/723615bc-418e-49f4-a9f1-f942f9d28487)
