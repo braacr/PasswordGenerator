@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Password Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Password Generator</title>
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <script src="main.js"></script>
   </head>
   <body>
     <div id="container">
-      <input type="number" id="numberInput" value="1" min="1" />
-      <div id="display">
-        null
-      </div>
-      <div id="button">
-        <button onclick="generatePassword()">Generate</button>
-      </div>
+      <h1>Password Generator</h1>
+      <label for="numberInput">Password Length:</label>
+      <input type="number" id="numberInput" value="8" min="1" max="50" />
+      <div id="display">Click "Generate" to get your password</div>
+      <button id="generateButton" onclick="generatePassword()">Generate Password</button>
+      <button id="copyButton" onclick="copyToClipboard()">Copy to Clipboard</button>
     </div>
   </body>
 </html>
